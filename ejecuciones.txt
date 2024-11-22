@@ -4,3 +4,8 @@ try
     await ejecucionPorOperacion("supergiros-soporte", "7b69645f6469737472697d2d3230323430353231303833363336", "0034", "01 Supergiros", "SOPORTE");
 
 }
+catch (Exception ex)
+{
+    MessageBox.Show($"Error en la ejecución: {ex.Message}");
+    return;
+}

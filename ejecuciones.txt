@@ -1,0 +1,6 @@
+try
+{
+    await ejecucionPorOperacion("supergiros", "7b69645f6469737472697d2d3230323431313231323235363339", "0038", "01 Supergiros", "SAC");
+    await ejecucionPorOperacion("supergiros-soporte", "7b69645f6469737472697d2d3230323430353231303833363336", "0034", "01 Supergiros", "SOPORTE");
+
+}
